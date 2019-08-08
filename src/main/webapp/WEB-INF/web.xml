@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    <servlet>
+      <servlet-name>ServletDemo</servlet-name>
+      <servlet-class>com.objectfrontier.training.java.jdbc.servlet.ServletDemo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>ServletDemo</servlet-name>
+      <url-pattern>/healthCheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>Person</servlet-name>
+      <servlet-class>com.objectfrontier.training.java.jdbc.servlet.PersonServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>Person</servlet-name>
+      <url-pattern>/person/create</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>Person</servlet-name>
+      <url-pattern>/person/update</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>Person</servlet-name>
+      <url-pattern>/person/read</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>Person</servlet-name>
+      <url-pattern>/person/readAll</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>Person</servlet-name>
+      <url-pattern>/person/initial</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+      <servlet-name>Person</servlet-name>
+      <url-pattern>/person/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>Address</servlet-name>
+      <servlet-class>com.objectfrontier.training.java.jdbc.servlet.AddressServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>Address</servlet-name>
+      <url-pattern>/address/create</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>Address</servlet-name>
+      <url-pattern>/address/update</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>Address</servlet-name>
+      <url-pattern>/address/read</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>Address</servlet-name>
+      <url-pattern>/address/readAll</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>Address</servlet-name>
+      <url-pattern>/address/delete</url-pattern>
+    </servlet-mapping>
+
+</web-app>
